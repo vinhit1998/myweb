@@ -1,0 +1,32 @@
+input{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 0 5px !important;
+    height: 40px;
+    width: 50px !important;
+}
+button{
+    background-color: #262626;
+    color: #fff;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 30px !important;
+}
+.seach_input1{
+    border: none;
+    outline: none;
+    width: 450px !important;
+    height: 30px !important;
+    font-size: 13px;
+    border-radius: 3px 0 0 3px;
+}
+.seach_input2{
+    height: 30px !important;
+    width: 80px !important;
+    font-size: 13px;
+    color: white;
+    background: black;
+    border-radius: 0 3px 3px 0;
+}

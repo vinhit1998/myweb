@@ -1,0 +1,290 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background: #e7ecf4;
+}
+
+#header{
+    background:linear-gradient(
+        -180deg
+        ,#f53d2d,#f63);
+    height: auto;    
+}
+#topheader_right {
+    padding-top: 15px;
+    padding-right: 50px;
+    float: right;
+    
+}
+
+#topheader_right a{
+    color: white;
+    margin-left: 15px;
+}
+#topheader_right i{
+    color: white;
+}
+
+#topheader_right a:hover{
+    color: black;
+    margin-left: 15px;
+}
+#topheader_right i:hover{
+    color: black;
+}
+
+#dangky{
+    padding: 0 10px;
+    border-right: 2px solid hsla(0,0%,100%,.22);
+}
+
+#cart{
+    font-size:40px ;
+    padding-left: 30px;
+}
+#cart a{
+    color: white;
+    padding-left: 30px;
+}
+#cart a:hover{
+    color: black;
+}
+
+
+#gioithieu a{
+    
+    color: white;
+    height: 40px;
+    padding: 0 15px;
+    line-height: 40px;
+    border-right: 2px solid hsla(0,0%,100%,.22);
+}
+#gioithieu a:hover{
+    
+    color: black;
+    height: 40px;
+    padding: 0 15px;
+    line-height: 40px;
+    border-right: 2px solid hsla(0,0%,100%,.22);
+}
+
+#search{
+    padding-top: 20px;
+}
+#search input{
+    width: 450px;
+    height: 30px;
+    font-size: 13px;
+    border-radius: 3px 0 0 3px;
+}
+
+#search button{
+    height: 30px;
+    width: 80px;
+    font-size: 13px;
+    color: white;
+    background: black;
+    border-radius: 0 3px 3px 0;
+}
+
+#cart img{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    margin-top: 20px;
+    float: right;
+  
+}
+
+#body {
+    padding-top: 25px;
+    
+}
+
+#body img {
+    border-radius: 3px 3px 3px 3px;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.imgrightbot{
+    padding-top: 10px;
+}
+
+#menu {
+    padding-top: 5px;
+}
+#menu ul{
+    margin: 0;
+    padding: 5px;
+    padding-left: 15px;
+    background:linear-gradient(
+        -180deg
+        ,#f53d2d,#f63);
+    overflow: hidden;
+    border-radius: 3px 3px 3px 3px;
+
+}
+
+
+#menu ul li{
+    list-style: none;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+   
+  
+}
+
+#menu ul li a{
+    font-size: 13px;
+    color: white;
+    padding: 0 15px;
+    border-right: 1px solid white;
+   
+}
+
+#menu ul li .lastItem{
+    border-right: none;
+   
+}
+
+#menu ul li a i span{
+    padding-left: 7px;
+   
+}
+
+#menu a:hover{
+    color: black;
+}
+
+.products h3{
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.card-img-top{
+    width: 400px;
+    height: 200px;
+}
+
+.price-old {
+    color: #666;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 10px;
+    text-decoration-line: line-through;
+  }
+  
+  #trangchu button{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+  }
+  
+  .item-rating {
+    display: flex;
+    padding-top: 10px;
+  
+  }
+  
+  .item-rating #sao1,#sao2,#sao3,#sao4{
+    color:orangered;
+  }
+
+#footer{
+    padding-top: 30px;
+}
+
+#phantrangfooter{
+    padding-left: 35%;
+      padding-top: 20px ;
+  }
+
+ #sanphamnoibat {
+     padding-left: 10px;
+     margin-left: 2px;
+     margin-right: 2px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     background-color: darkcyan;
+     border-radius: 3px 3px 3px 3px;
+     
+ } 
+ #sanphamnoibat h3 {
+    margin: 0 auto;
+    padding-bottom: 12px;
+ }
+
+ #sanphamnoibat h3:hover {
+    margin: 0 auto;
+    padding-bottom: 12px;
+    color: white;
+ }
+
+
+ #sanphambanchay {
+    padding-left: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: darkcyan;
+    border-radius: 3px 3px 3px 3px;
+    
+} 
+#sanphambanchay h3 {
+   margin: 0 auto;
+   padding-bottom: 12px;
+}
+
+#sanphambanchay h3:hover {
+   margin: 0 auto;
+   padding-bottom: 12px;
+   color: white;
+}
+
+#xemchitiet{
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-left: 10px;
+}
+
+#themvaogiohang{
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-left: 10px;
+}
+
+/* @media(max-width: 320px) {
+    #slider{
+        display: none;
+    } 
+} */
+
+@media only screen and (max-width: 500px){
+    #slider  {
+        display: none;
+    } 
+    #header {
+        display: none;
+    }
+    .imgright{
+        display: none;
+    } 
+    #congnghe{
+        display: none; 
+    }
+    #tienich{
+        display: none;
+    }
+    #phantrangfooter{
+        padding-left: 5%;
+    }
+
+}
+
+
+
+

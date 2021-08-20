@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/register.css">
+
+    <script src="js/login.js"></script>
+    <script src="js/include.js"></script>
+</head>
+<body>
+    <!-- header --> 
+    <div w3-include-html="include/header.html"></div>
+    <!-- end header -->
+    <!-- body -->
+    <!-- body -->
+    <section class="container" id="body">
+        <div class="row justify-content-center">
+            <div class="col-md-8 ">
+                <div class="card bg-light">
+                    <article class="card-body mx-auto" style="max-width: 400px;">
+                        <h4 class="card-title mt-3 text-center">Create Account</h4>
+                        <p class="text-center">Get started with your free account</p>
+                        <p>
+                            <a href="https://accounts.google.com/signin/v2/identifier?hl=vi&passive=true&continue=https%3A%2F%2Fwww.google.com.vn%2F%3Fhl%3Dvi&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="btn btn-block btn-google"> <i class="fab fa-google-plus-g"></i>   Login Google</a>
+                            <a href="" class="btn btn-block btn-facebook"> <i class="fab fa-facebook-f"></i>   Login facebook</a>
+                        </p>
+                        <p class="divider-text">
+                            <span class="bg-light">OR</span>
+                        </p>
+                        <form>
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                             </div>
+                            <input name="" class="form-control" placeholder="Full name" type="text">
+                        </div> <!-- form-group// -->
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+                             </div>
+                            <input name="" class="form-control" placeholder="Email address" type="email">
+                        </div> <!-- form-group// -->
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
+                            </div>
+                            <select class="custom-select" style="max-width: 120px;">
+                                <option selected="">+971</option>
+                                <option value="1">+972</option>
+                                <option value="2">+198</option>
+                                <option value="3">+701</option>
+                            </select>
+                            <input name="" class="form-control" placeholder="Phone number" type="text">
+                        </div> <!-- form-group// -->
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-building"></i> </span>
+                            </div>
+                            <select class="form-control">
+                                <option selected=""> Select job type</option>
+                                <option>Designer</option>
+                                <option>Manager</option>
+                                <option>Accaunting</option>
+                            </select>
+                        </div> <!-- form-group end.// -->
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                            </div>
+                            <input class="form-control" placeholder="Create password" type="password">
+                        </div> <!-- form-group// -->
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                            </div>
+                            <input class="form-control" placeholder="Repeat password" type="password">
+                        </div> <!-- form-group// -->                                      
+                        <div class="form-group">
+                          <a href="index.html"><button type="button" class="btn btn-primary btn-block"> Create Account  </button></a>
+     
+                        </div> <!-- form-group// -->      
+                        <p class="text-center">Have an account? <a href="">Log In</a> </p>                                                                 
+                    </form>
+                    </article>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- end body -->
+    <!-- footer -->
+    <div w3-include-html="include/footer.html"></div>
+    <!-- end footer -->
+    <script>
+      includeHTML();
+    </script>
+</body>
+
+</html>

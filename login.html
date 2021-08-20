@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/login.js"></script>
+    <script src="js/include.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <div w3-include-html="include/header.html"></div>
+    <!-- end header -->
+    <!-- body -->
+    <section class="container" id="body">
+        <div class="row  justify-content-center">
+            <div class="col-md-6">
+                    <div class="box shadow bg-white " >
+                        <h3 class="mb-4 text-center text-black-50">Trang đăng nhập</h3>
+                        <form    action="/action_page.php" method="post">
+                            <div class="imgcontainer">
+                              <img src="img/img_avatar2.png" alt="Avatar" class="avatar">
+                            </div>
+                          
+                            <div class="container" >
+                              <label for="uname"><b>Username</b></label>
+                              <input type="text" placeholder="Enter Username" name="uname" required>
+                          
+                              <label for="psw"><b>Password</b></label>
+                              <input type="password" placeholder="Enter Password" name="psw" required>
+                                  
+                              <a href="index2.html"> <button type="button">Login</button></a>
+                              <label>
+                                <input type="checkbox" checked="checked" name="remember"> Remember me
+                              </label>
+                              <div class="row" >
+                                <div style="padding-left: 40px;">
+                                <a href="https://www.facebook.com/" class="fb btn" style="padding-left: 20px;">
+                                    <i class="fab fa-facebook-square"></i> Login with Facebook
+                                </a>
+                                </div>
+                                <div style="padding-left: 40px;">
+                                <a href="https://accounts.google.com/signin/v2/identifier?hl=vi&passive=true&continue=https%3A%2F%2Fwww.google.com.vn%2F%3Fhl%3Dvi&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="google btn"  style="padding-left: 20px;" >
+                                    <i class="fab fa-google-plus-g"></i> Login with Google+
+                                </a>
+                                </div>
+                              </div>
+                            </div>
+                          
+                            <div class="container" style="background-color:#f1f1f1">
+                              <a href="index2.html"><button type="button" class="cancelbtn" style="margin-left: 30px;">Cancel</button></a> 
+                              <span class="psw">Forgot <a href="#">password?</a></span>
+                            </div>
+                          </form>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- end body -->
+    <!-- footer -->
+    <div w3-include-html="include/footer.html"></div>
+    <!-- end footer -->
+    <script>
+      includeHTML();
+    </script>
+</body>
+</html>
